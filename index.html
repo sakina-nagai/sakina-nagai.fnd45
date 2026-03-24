@@ -2,45 +2,62 @@
 <html lang="ja">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ルーレット</title>
-    <link rel="stylesheet" href="style.css">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ルーレット</title>
+  <link rel="stylesheet" href="style.css">
+
 </head>
 
-<body>
-    <!-- <div class="name"> -->
-    <p id = "names" class = "name"></p>
-    <p id = "g-name" >
-    <!-- ルーレット -->
-    <div class = "img-box" >
-        <div id = "slide">
-            <ul>
-            <li class="swiper-slide" id ="1"><img src ="img/number_1.png" ></li>
-            <li class="swiper-slide" id ="2"><img src ="img/number_2.png" ></li>
-            <li class="swiper-slide" id ="3"><img src ="img/number_3.png" ></li>
-            <li class="swiper-slide" id ="4"><img src ="img/number_4.png" ></li>
-            <li class="swiper-slide" id ="5"><img src ="img/number_1.png" ></li>
-            <li class="swiper-slide" id ="6"><img src ="img/number_1.png" ></li>
-            <li class="swiper-slide" id ="7"><img src ="img/number_1.png" ></li>
-            <li class="swiper-slide" id ="8"><img src ="img/number_1.png" ></li>
-            <li class="swiper-slide" id ="9"><img src ="img/number_1.png" ></li>
-            <li class="swiper-slide" id ="10"><img src ="img/number_1.png" ></li>
-            <li class="swiper-slide" id ="11"><img src ="img/number_1.png" ></li>
-            <li class="swiper-slide" id ="12"><img src ="img/number_1.png" ></li>
-            </ul>
-        </div>
-    </div>
+<!--名前スライド-->
 
-    <!-- ルーレットのボタン -->
-    <table>
+<body>
+  <div id="names" class="name">
+  <!-- <p id="g-name"> -->
+  <div id="slide-names">
+    <div class="name-slide">山本</div>
+    <div class = "name-slide">池田</div>
+            <div class = "name-slide">小茂田</div>
+            <div class = "name-slide">飯島</div>
+            <div class = "name-slide">帖佐</div>
+            <div class = "name-slide">蓑毛</div>
+            <div class = "name-slide">平生</div>
+            <div class = "name-slide">野崎</div>
+            <div class = "name-slide">種市</div>
+            <div class = "name-slide">姉崎</div>
+            <div class = "name-slide">佐藤</div>
+            <div class = "name-slide">永井</div>
+  </div>
+  </div>
+  <!-- 画像スライド -->
+  <div class="img-box">
+    <div id="slide">
+      <ul>
+        <div class="swiper-slide" id="1"><img src="img/kao_1.png"></div>
+        <div class="swiper-slide" id="2"><img src="img/kao_2.png"></div>
+        <div class="swiper-slide" id="3"><img src="img/kao_3.png"></div>
+        <div class="swiper-slide" id="4"><img src="img/kao_4.png"></div>
+        <div class="swiper-slide" id="5"><img src="img/kao_5.png"></div>
+        <div class="swiper-slide" id="6"><img src="img/kao_6.png"></div>
+        <div class="swiper-slide" id="7"><img src="img/kao_7.png"></div>
+        <div class="swiper-slide" id="8"><img src="img/kao_8.png"></div>
+        <div class="swiper-slide" id="9"><img src="img/kao_9.png"></div>
+        <div class="swiper-slide" id="10"><img src="img/kao_10.png"></div>
+        <div class="swiper-slide" id="11"><img src="img/kao_11.png"></div>
+        <div class="swiper-slide" id="12"><img src="img/kao_12.png"></div>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ルーレットのボタンを作った -->
+  <table>
     <tr>
-    <td><button id="start" class="start" >スタート</button></td>
-    <td><button id="stop" class="stop" >ストップ</button></td>
+      <td><button id="start" class="start">スタート</button></td>
+      <td><button id="stop" class="stop">ストップ</button></td>
     </tr>
-    </table>
+  </table>
 </body>
 
 <script src="main.js"></script>
+
 </html>
