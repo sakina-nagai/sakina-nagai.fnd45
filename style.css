@@ -36,7 +36,9 @@ table {
   margin: 40px auto;
 }
 
+
 .swiper {
+  width: auto;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -53,6 +55,7 @@ table {
   }
 }
 
+
 .image {
   animation-play-state: paused;
 }
@@ -60,6 +63,13 @@ table {
 img {
   width: 500px;
   height: 500px;
+  margin: 0px;
+}
+
+.swiper-slide{
+  height: 500px;
+  width: 500px;
+  margin: -30px;
 }
 
 .name {
